@@ -1052,6 +1052,8 @@ window.onkeydown = function(e){
 		left = true;
 	if(e.keyCode == 39)
 		right = true;
+	if(e.keyCode == 32)
+		SPEED = 0.01;
 }
 
 window.onkeyup = function(e){
@@ -1059,6 +1061,8 @@ window.onkeyup = function(e){
 		left = false;
 	if(e.keyCode == 39)
 		right = false;
+	if(e.keyCode == 32)
+		SPEED = 0.004
 }
 
 if(mobile){

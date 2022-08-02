@@ -1054,7 +1054,6 @@ window.onkeydown = function(e){
 		right = true;
 	if(e.keyCode == 32)
 		SPEED = 0.03;
-		setTimeout(SPEED = 0.004, 3000);
 }
 
 window.onkeyup = function(e){

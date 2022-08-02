@@ -1053,7 +1053,7 @@ window.onkeydown = function(e){
 	if(e.keyCode == 39)
 		right = true;
 	if(e.keyCode == 32)
-		SPEED = 0.05;
+		SPEED = 100;
 }
 
 window.onkeyup = function(e){

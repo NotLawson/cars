@@ -755,7 +755,7 @@ function join(){
 					
 					if(play.data.lap > 3){
 						document.getElementById("countdown").style.fontSize = "25vmin";
-						document.getElementById("countdown").innerHTML = play.data.name + " Won! <br> <img src='finn.jpg' width="460" height="345">";
+						document.getElementById("countdown").innerHTML = play.data.name + " Won! <br> <img src='finn.jpg'>";
 					}
 					
 					for(var pl in players){
